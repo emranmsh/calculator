@@ -1,0 +1,88 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: ghostwhite;
+}
+
+.calcObject{
+    display: flex;
+    height: 70%;
+    width: 30%;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: rgb(88, 88, 88);
+    border-color: rgb(88, 88, 88);
+    padding-top: 3%;
+    border-radius: 40px;
+}
+
+.screen{
+    display: flex;
+    height: 150px;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: white;
+    border-color: black;
+    border-radius: 15px;
+    
+}
+
+.keypadAll{
+    
+    padding: 10% 5% 10% 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+button{
+    border-radius: 100px;
+    font-size: xxx-large;
+    width: 31%;
+    margin-bottom: 5%;
+    background-color: rgb(107, 106, 105);
+}
+
+.key17{
+    font-size: medium;
+    width: 100%;
+    background-color: rgb(255, 107, 107);
+    padding-right: 90%;
+}
+.keypad1{
+    background-color: rgb(192, 192, 192);
+    padding: 5% 5% 5% 5%;
+    width: 150%;
+    border-radius: 30px;;
+    margin-right: 2%;
+}
+
+.keypad2{
+    background-color: rgb(255, 178, 127);
+    padding: 5% 5% 5% 5%;
+    width: 20%;
+    border-radius: 30px;;
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.signs{
+    background-color: rgb(255, 153, 0);
+    width: 100%
+} 
+
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 5%;
+    color:black;
+    font-size: 40px
+}
